@@ -1,0 +1,340 @@
+/* GENERAL */
+html,
+body {
+    padding: 0;
+    margin: 0;
+    background: #AD8B73;
+    font-family: open sans;
+}
+
+/* INICIO */
+
+.container {
+    /* background: lightsalmon; */
+    /* border: 3px solid rgb(255, 255, 255); */
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: 295px;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 20px;
+    padding: 40px;
+    grid-template-areas:
+        "presentacion presentacion idiomas idiomas"
+        "presentacion presentacion modos modos"
+        "edad linkedin proyectos proyectos"
+        "github github lenguajes nivelingles"
+        "spotify spotify discord email"
+        "insta temperaturahorasitio temperaturahorasitio cumpleaños"
+        "img img2 img3 img4"
+
+    ;
+}
+
+@media (width < 1300px){
+    .container{
+        /* border: 3px solid rgb(255, 255, 255); */
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 295px;
+        max-width: 800px;
+        margin: 0 auto;
+        gap: 20px;
+        padding: 40px;
+        grid-template-areas: 
+        "presentacion presentacion presentacion"
+        "presentacion presentacion presentacion"
+        "idiomas idiomas idiomas"
+        "modos modos modos"
+        "proyectos proyectos ."
+        "nivelingles edad linkedin"
+        "github github lenguajes"
+        "spotify spotify ."
+        "email img2 cumpleaños"
+        "img temperaturahorasitio img3"
+        "insta img4 discord"
+    ;
+    }
+
+}
+
+
+
+@media (width < 900px){
+    .container{
+        /* border: 3px solid rgb(255, 255, 255); */
+        border-radius: 10px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 295px;
+        max-width: 600px;
+        margin: 0 auto;
+        gap: 20px;
+        padding: 40px;
+        grid-template-areas: 
+        "presentacion presentacion"
+        "presentacion presentacion"
+        "idiomas idiomas"
+        "modos modos"
+        "proyectos proyectos"
+        "linkedin nivelingles"
+        "lenguajes edad"
+        "github github"
+        "spotify spotify"
+        "email insta"
+        "img temperaturahorasitio"
+        "img2 temperaturahorasitio"
+        "discord cumpleaños"
+        "img3 img4"
+    ;
+    }
+}
+
+
+/* -------------------------------------------------------------------- */
+.container .presentacion {
+    grid-area: presentacion;
+    background: #CEAB93;
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 25px;
+    padding: 40px;
+}
+
+.presentacion p{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (width < 1300px) {
+    .milogo{
+        
+        width: 560px;
+    }
+}
+
+.container .idiomas {
+    grid-area: idiomas;
+    background: #E3CAA5;
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 25px;
+
+    padding: 40px;
+}
+
+.idiomas h1, p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.panaderia1{
+    width: 350px;
+}
+
+@media (width < 1300px) {
+    .panaderia1{
+        width: 360px;
+    }
+}
+
+.container .modos {
+    grid-area: modos;
+    background: #FFFBE9;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 25px;
+
+    padding: 40px;
+}
+
+.panaderia2{
+    /* margin-top: 60px;
+    margin-left: 50px; */
+    width: 500px;
+}
+
+@media (width < 1300px) {
+    .panaderia2{
+        padding-left: 125px;
+        width: 470px;
+    }
+}
+
+@media (width < 900px) {
+    .panaderia2{
+        padding-left: 20px;
+        width: 470px;
+    }
+}
+
+.container .edad {
+    grid-area: edad;
+    background: #E3CAA5;
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 25px;
+
+    padding: 40px;
+}
+
+.container .linkedin {
+    grid-area: linkedin;
+    background: #E3CAA5;
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 25px;
+
+    padding: 40px;
+}
+
+.container .proyectos {
+    grid-area: proyectos;
+    /* background: lightblue; */
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 25px;
+
+    padding: 40px;
+}
+
+.container .github {
+    grid-area: github;
+    background: #CEAB93;
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 25px;
+
+    padding: 40px;
+}
+
+.container .lenguajes {
+    grid-area: lenguajes;
+    background: #CEAB93;
+    background-image: url(/Users/soado/Documents/Panaderia/img/Pan.png);
+    background-size: cover;
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 25px;
+
+    padding: 40px;
+}
+
+.container .nivelingles {
+    grid-area: nivelingles;
+    background: #CEAB93;
+    background-image: url(/Users/soado/Documents/Panaderia/img/Pan2.png);
+    background-size: cover;
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 25px;
+
+    padding: 40px;
+}
+
+.container .spotify {
+    grid-area: spotify;
+    /* background: lightblue; */
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 25px;
+
+    padding: 40px;
+}
+
+.container .discord {
+    grid-area: discord;
+    background: #FFFBE9;
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 25px;
+
+    padding: 40px;
+}
+
+.pan{
+    padding-left: 5px;
+    padding-top: 50px;
+    width: 200px;
+}
+
+.container .email {
+    grid-area: email;
+    background: #FFFBE9;
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 25px;
+
+    padding: 40px;
+}
+
+.container .insta {
+    grid-area: insta;
+    background: #CEAB93;
+    background-image: url(/Users/soado/Documents/Panaderia/img/Pan4.jpg);
+    background-size: cover;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 25px;
+
+    padding: 40px;
+
+}
+
+.container .temperaturahorasitio {
+    grid-area: temperaturahorasitio;
+    background: #CEAB93;
+
+    /* border: 2px solid rgb(255, 255, 255); */
+    border-radius: 25px;
+
+    padding: 40px;
+}
+
+.container .cumpleaños {
+    grid-area: cumpleaños;
+    background: #CEAB93;
+    background-image: url(/Users/soado/Documents/Panaderia/img/Pan3.png);
+    background-size: cover;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 25px;
+    
+    padding: 40px;
+}
+
+.container .img {
+    grid-area: img;
+    background: #CEAB93;
+    background-image: url(/Users/soado/Documents/Panaderia/img/Pan5.png);
+    background-size: cover;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 25px;
+    
+    padding: 40px;
+}
+
+.container .img2 {
+    grid-area: img2;
+    background: #CEAB93;
+    background-image: url(/Users/soado/Documents/Panaderia/img/Pan6.png);
+    background-size: cover;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 25px;
+    
+    padding: 40px;
+}
+
+.container .img3 {
+    grid-area: img3;
+    background: #CEAB93;
+    background-image: url(/Users/soado/Documents/Panaderia/img/Pan7.png);
+    background-size: cover;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 25px;
+    
+    padding: 40px;
+}
+
+.container .img4 {
+    grid-area: img4;
+    background: #CEAB93;
+    background-image: url(/Users/soado/Documents/Panaderia/img/Pan8.png);
+    background-size: cover;
+    /* border: 2px solid rgb(0, 0, 0); */
+    border-radius: 25px;
+    
+    padding: 40px;
+}
+
+/* -------------------------------------------------------------------- */
