@@ -208,7 +208,7 @@ body {
 .container .lenguajes {
     grid-area: lenguajes;
     background: #CEAB93;
-    background-image: url(/Users/soado/Documents/Panaderia/img/Pan.png);
+    background-image: url(img/Pan.png);
     background-size: cover;
     /* border: 2px solid rgb(255, 255, 255); */
     border-radius: 25px;
@@ -219,7 +219,7 @@ body {
 .container .nivelingles {
     grid-area: nivelingles;
     background: #CEAB93;
-    background-image: url(/Users/soado/Documents/Panaderia/img/Pan2.png);
+    background-image: url(img/Pan2.png);
     background-size: cover;
     /* border: 2px solid rgb(255, 255, 255); */
     border-radius: 25px;
@@ -263,7 +263,7 @@ body {
 .container .insta {
     grid-area: insta;
     background: #CEAB93;
-    background-image: url(/Users/soado/Documents/Panaderia/img/Pan4.jpg);
+    background-image: url(img/Pan4.jpg);
     background-size: cover;
     /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 25px;
@@ -285,7 +285,7 @@ body {
 .container .cumpleaños {
     grid-area: cumpleaños;
     background: #CEAB93;
-    background-image: url(/Users/soado/Documents/Panaderia/img/Pan3.png);
+    background-image: url(img/Pan3.png);
     background-size: cover;
     /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 25px;
@@ -296,7 +296,7 @@ body {
 .container .img {
     grid-area: img;
     background: #CEAB93;
-    background-image: url(/Users/soado/Documents/Panaderia/img/Pan5.png);
+    background-image: url(img/Pan5.png);
     background-size: cover;
     /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 25px;
@@ -307,7 +307,7 @@ body {
 .container .img2 {
     grid-area: img2;
     background: #CEAB93;
-    background-image: url(/Users/soado/Documents/Panaderia/img/Pan6.png);
+    background-image: url(img/Pan6.png);
     background-size: cover;
     /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 25px;
@@ -318,7 +318,7 @@ body {
 .container .img3 {
     grid-area: img3;
     background: #CEAB93;
-    background-image: url(/Users/soado/Documents/Panaderia/img/Pan7.png);
+    background-image: url(img/Pan7.png);
     background-size: cover;
     /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 25px;
@@ -329,7 +329,7 @@ body {
 .container .img4 {
     grid-area: img4;
     background: #CEAB93;
-    background-image: url(/Users/soado/Documents/Panaderia/img/Pan8.png);
+    background-image: url(img/Pan8.png);
     background-size: cover;
     /* border: 2px solid rgb(0, 0, 0); */
     border-radius: 25px;
